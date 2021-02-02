@@ -59,7 +59,7 @@ public class JPAUtil {
     }
 
     /** This method will expose the EntityManagerFactory instance */
-    public static EntityManagerFactory getIEntityManagerFactory() {
+    public static EntityManagerFactory getEntityManagerFactory() {
         return emf;
     }
 
@@ -79,7 +79,7 @@ public class JPAUtil {
         return bds;
     }
 
-    private static Properties loadDatabaseProperties() {
+    public static Properties loadDatabaseProperties() {
         if (properties == null) {
             properties = new Properties();
         }

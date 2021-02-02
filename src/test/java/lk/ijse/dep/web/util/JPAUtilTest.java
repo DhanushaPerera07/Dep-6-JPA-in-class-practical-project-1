@@ -12,7 +12,7 @@ public class JPAUtilTest {
 
     @Test
     public void getInstance() {
-        System.out.println(JPAUtil.getIEntityManagerFactory());
-        assertNotNull(JPAUtil.getIEntityManagerFactory());
+        System.out.println(JPAUtil.getEntityManagerFactory());
+        assertNotNull(JPAUtil.getEntityManagerFactory());
     }
 }
